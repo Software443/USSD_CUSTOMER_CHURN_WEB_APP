@@ -1,0 +1,1001 @@
+customer_id,age,gender,location,account_type,transactions_last_30d,avg_transaction_value,failed_transactions,sms_alerts,complaints_logged,customer_tenure_months,churn
+1,56,Female,Urban,Mobile Wallet,28,7701.7,1,Yes,0,2,1
+2,69,Male,Urban,Current,17,3692.64,2,Yes,1,9,0
+3,46,Male,Rural,Mobile Wallet,20,3387.25,2,No,0,119,0
+4,32,Male,Rural,Current,24,5151.39,2,No,2,57,0
+5,60,Male,Urban,Savings,20,6371.18,2,Yes,0,45,0
+6,25,Male,Rural,Savings,24,4716.7,0,Yes,1,18,0
+7,38,Male,Urban,Current,25,7332.74,2,No,0,112,0
+8,56,Male,Urban,Current,18,6061.95,2,Yes,0,48,0
+9,36,Male,Urban,Savings,21,643.58,1,Yes,2,42,0
+10,40,Female,Rural,Savings,20,3941.07,3,Yes,0,41,0
+11,28,Female,Urban,Mobile Wallet,10,3876.32,1,No,3,75,1
+12,28,Female,Rural,Current,21,5958.72,1,Yes,1,89,0
+13,41,Female,Rural,Savings,25,-249.63,2,No,1,90,1
+14,53,Male,Rural,Savings,16,10098.02,1,Yes,1,58,0
+15,57,Male,Urban,Savings,23,6062.05,1,Yes,1,100,0
+16,41,Female,Urban,Savings,21,5297.75,0,No,2,42,0
+17,20,Female,Urban,Savings,15,7363.14,3,Yes,1,35,0
+18,39,Female,Urban,Savings,24,9687.31,2,Yes,2,38,0
+19,19,Male,Urban,Current,23,6741.49,2,No,1,67,0
+20,41,Male,Rural,Savings,24,6897.63,4,No,0,41,0
+21,61,Male,Urban,Mobile Wallet,22,5261.38,1,No,1,99,0
+22,47,Male,Urban,Mobile Wallet,28,4716.95,3,No,2,50,0
+23,55,Female,Urban,Savings,11,4048.41,2,No,1,104,0
+24,19,Female,Urban,Current,25,3347.78,2,Yes,2,86,0
+25,38,Male,Urban,Savings,24,3625.97,1,Yes,0,72,0
+26,50,Female,Urban,Mobile Wallet,18,2298.89,3,No,0,79,0
+27,29,Female,Rural,Savings,31,4848.26,1,Yes,2,45,0
+28,39,Male,Urban,Current,28,1630.66,2,No,0,71,0
+29,61,Male,Rural,Current,21,5381.83,1,No,2,19,0
+30,42,Male,Rural,Savings,17,4927.34,3,Yes,1,104,0
+31,66,Male,Urban,Savings,23,5293.87,3,No,2,106,0
+32,44,Male,Rural,Current,23,3955.74,1,Yes,2,17,0
+33,59,Male,Urban,Current,18,11153.72,2,Yes,1,65,0
+34,45,Male,Rural,Savings,19,7720.23,0,No,1,109,0
+35,33,Male,Urban,Current,18,2510.91,2,Yes,1,93,0
+36,32,Female,Rural,Savings,29,5465.74,2,Yes,0,77,0
+37,64,Male,Rural,Current,18,3783.99,0,Yes,1,56,0
+38,68,Female,Rural,Savings,11,2971.04,3,No,1,112,0
+39,61,Male,Rural,Mobile Wallet,15,2319.86,4,No,2,93,0
+40,69,Female,Urban,Savings,19,5864.43,0,No,0,41,0
+41,20,Male,Urban,Savings,16,3637.24,3,No,3,42,0
+42,54,Male,Urban,Savings,22,6935.65,1,Yes,0,6,0
+43,68,Female,Urban,Savings,24,6987.56,2,No,1,69,0
+44,24,Female,Urban,Current,24,7747.83,3,No,1,98,1
+45,38,Female,Urban,Savings,22,3295.23,2,Yes,2,75,0
+46,26,Male,Rural,Mobile Wallet,19,5950.73,0,Yes,2,73,0
+47,56,Male,Urban,Savings,17,6264.91,0,No,3,102,0
+48,35,Female,Rural,Savings,17,4051.64,1,No,1,40,0
+49,21,Female,Urban,Savings,15,3456.46,4,No,1,41,0
+50,42,Female,Rural,Savings,19,8219.04,1,No,2,9,0
+51,31,Female,Rural,Savings,14,5454.99,0,Yes,0,8,0
+52,67,Male,Urban,Savings,20,6271.94,2,No,1,44,0
+53,26,Female,Urban,Savings,20,3355.85,0,Yes,1,58,0
+54,43,Male,Rural,Savings,21,2561.43,3,Yes,2,104,0
+55,19,Male,Urban,Current,15,3861.1,3,No,1,67,0
+56,37,Male,Urban,Current,21,4751.96,2,Yes,2,13,0
+57,45,Female,Urban,Savings,18,2871.56,4,No,0,19,0
+58,64,Male,Urban,Savings,25,4980.31,0,Yes,1,98,0
+59,24,Male,Urban,Mobile Wallet,19,1622.99,4,Yes,1,96,0
+60,61,Female,Urban,Current,24,2759.91,1,Yes,0,49,0
+61,25,Male,Urban,Current,21,6341.82,2,Yes,1,80,0
+62,64,Female,Urban,Savings,16,6207.58,1,Yes,1,100,0
+63,52,Male,Rural,Current,21,4216.25,1,Yes,0,82,0
+64,31,Male,Urban,Current,20,2964.47,4,No,2,78,0
+65,34,Female,Rural,Current,15,2945.19,0,Yes,0,30,0
+66,53,Male,Urban,Mobile Wallet,19,4253.46,0,Yes,2,66,0
+67,67,Male,Urban,Savings,10,6289.04,3,Yes,2,77,0
+68,57,Male,Urban,Savings,23,6856.49,1,No,1,91,0
+69,21,Male,Urban,Current,16,4006.94,2,Yes,0,59,0
+70,19,Female,Urban,Mobile Wallet,16,2693.02,1,No,1,53,0
+71,23,Male,Urban,Savings,18,5535.69,2,No,1,52,0
+72,59,Female,Urban,Savings,25,3352.93,3,Yes,2,81,0
+73,21,Male,Urban,Savings,18,3963.49,3,Yes,1,31,0
+74,46,Female,Urban,Savings,24,7650.55,1,No,1,15,0
+75,35,Female,Urban,Current,16,6654.23,1,No,0,20,0
+76,43,Female,Urban,Current,19,5315.95,1,No,1,5,1
+77,61,Male,Rural,Savings,25,2456.16,2,Yes,1,7,0
+78,51,Male,Urban,Savings,18,5422.79,2,Yes,2,18,0
+79,27,Male,Urban,Savings,25,7125.31,4,Yes,3,56,1
+80,53,Female,Rural,Savings,19,4248.73,4,Yes,0,75,0
+81,31,Female,Urban,Current,28,7702.23,4,Yes,0,96,0
+82,48,Female,Urban,Mobile Wallet,28,7585.49,2,No,0,114,0
+83,65,Male,Rural,Mobile Wallet,20,8327.47,2,Yes,2,91,0
+84,32,Female,Urban,Savings,20,5610.49,0,No,2,90,0
+85,25,Female,Urban,Mobile Wallet,15,6174.78,2,No,0,101,1
+86,31,Male,Urban,Current,23,7828.37,1,Yes,3,45,0
+87,40,Male,Urban,Current,19,5894.79,2,No,0,28,0
+88,57,Female,Urban,Savings,22,3997.53,2,Yes,0,50,0
+89,38,Female,Urban,Savings,18,4102.91,1,No,2,2,1
+90,33,Female,Urban,Savings,19,5477.11,5,Yes,2,84,0
+91,62,Male,Urban,Savings,25,2418.88,1,Yes,1,68,0
+92,35,Female,Rural,Savings,18,4713.48,3,No,1,77,1
+93,64,Male,Rural,Savings,13,7193.09,2,Yes,1,24,0
+94,41,Male,Urban,Savings,19,617.49,3,No,2,112,0
+95,43,Male,Urban,Current,22,8068.96,4,Yes,2,102,0
+96,42,Female,Urban,Savings,19,7244.75,1,Yes,2,104,0
+97,62,Female,Urban,Savings,15,4080.47,0,Yes,1,48,0
+98,58,Female,Urban,Mobile Wallet,21,6086.78,4,Yes,3,45,0
+99,46,Male,Urban,Mobile Wallet,20,5006.3,3,Yes,3,119,0
+100,32,Female,Rural,Current,31,7459.98,1,No,3,93,1
+101,62,Male,Urban,Mobile Wallet,27,6965.37,2,No,1,58,0
+102,18,Female,Urban,Current,22,2199.86,4,No,0,36,0
+103,42,Male,Urban,Mobile Wallet,24,6174.52,3,No,2,2,0
+104,24,Male,Urban,Savings,22,4588.74,1,Yes,0,105,0
+105,26,Male,Rural,Savings,23,5165.67,0,No,0,18,0
+106,41,Male,Rural,Savings,20,3543.66,4,Yes,1,49,1
+107,18,Female,Rural,Savings,19,8496.27,1,No,1,8,0
+108,61,Female,Urban,Savings,27,7080.12,1,Yes,1,58,0
+109,25,Male,Urban,Current,25,3520.46,3,No,0,15,0
+110,41,Female,Urban,Current,20,2330.78,3,No,1,105,0
+111,28,Male,Urban,Current,21,4228.65,2,No,3,17,0
+112,68,Female,Urban,Savings,9,5869.01,0,No,0,23,1
+113,34,Female,Rural,Mobile Wallet,32,5480.41,3,No,0,66,1
+114,25,Female,Urban,Current,23,7506.27,1,No,3,70,0
+115,52,Male,Urban,Savings,22,6579.84,1,Yes,1,93,0
+116,52,Female,Urban,Current,30,6939.14,2,Yes,2,27,0
+117,50,Female,Urban,Savings,24,5653.71,1,Yes,1,37,0
+118,22,Male,Urban,Savings,21,2221.4,1,Yes,0,49,0
+119,59,Male,Rural,Mobile Wallet,23,4608.6,2,Yes,2,64,0
+120,56,Female,Rural,Savings,29,7120.18,1,Yes,0,34,0
+121,58,Female,Rural,Savings,22,4896.95,3,Yes,0,18,0
+122,45,Female,Urban,Mobile Wallet,17,6006.18,1,No,1,64,0
+123,24,Female,Urban,Current,19,4362.5,1,No,3,106,1
+124,26,Female,Urban,Savings,15,2940.38,4,Yes,1,74,0
+125,25,Male,Urban,Savings,12,4753.31,1,Yes,0,102,0
+126,29,Male,Rural,Savings,13,5618.09,3,Yes,0,44,0
+127,51,Male,Urban,Current,22,3688.62,1,Yes,1,17,0
+128,50,Female,Urban,Savings,15,4528.58,0,No,0,59,0
+129,65,Male,Urban,Savings,35,3121.07,3,Yes,0,13,0
+130,40,Female,Urban,Mobile Wallet,28,7238.49,1,Yes,1,52,0
+131,41,Female,Rural,Current,10,4411.09,0,No,1,60,0
+132,54,Female,Urban,Savings,21,7905.51,3,No,0,112,0
+133,52,Male,Urban,Current,17,8057.5,1,Yes,1,42,0
+134,61,Female,Urban,Current,21,4837.91,1,No,1,91,0
+135,57,Male,Urban,Savings,17,2983.1,4,Yes,0,64,0
+136,39,Female,Rural,Savings,17,828.2,2,Yes,0,117,0
+137,44,Male,Rural,Mobile Wallet,18,2055.93,3,Yes,0,66,0
+138,52,Male,Rural,Savings,10,2252.33,2,Yes,0,34,0
+139,18,Female,Rural,Current,16,7756.94,1,Yes,2,95,0
+140,52,Male,Urban,Savings,13,5231.65,0,Yes,2,87,0
+141,54,Male,Urban,Savings,18,5779.21,2,No,2,71,0
+142,64,Female,Urban,Savings,12,559.16,0,No,1,102,0
+143,31,Female,Urban,Savings,24,2604.07,3,Yes,1,64,0
+144,20,Female,Rural,Savings,20,6774.16,1,Yes,2,33,0
+145,18,Female,Urban,Savings,18,5573.55,0,No,1,12,0
+146,22,Female,Rural,Mobile Wallet,20,4705.59,1,Yes,0,109,0
+147,43,Male,Urban,Mobile Wallet,21,6129.68,1,No,0,76,0
+148,31,Male,Urban,Current,24,8271.6,4,No,0,19,0
+149,56,Male,Urban,Mobile Wallet,14,4557.92,3,Yes,1,9,0
+150,44,Female,Rural,Savings,18,5138.74,3,Yes,1,74,0
+151,26,Female,Urban,Mobile Wallet,22,5385.19,1,Yes,1,17,0
+152,32,Male,Urban,Savings,23,9784.22,2,Yes,0,50,0
+153,32,Male,Urban,Mobile Wallet,22,801.29,3,Yes,4,104,0
+154,43,Female,Urban,Mobile Wallet,17,6366.45,3,No,0,39,0
+155,59,Male,Urban,Current,19,4770.4,4,Yes,4,41,0
+156,30,Female,Rural,Mobile Wallet,22,6133.54,0,Yes,0,10,0
+157,68,Female,Urban,Current,22,3685.25,0,Yes,2,12,0
+158,49,Female,Urban,Savings,19,4902.07,3,Yes,0,79,0
+159,56,Male,Urban,Savings,23,6422.82,2,Yes,0,95,0
+160,66,Female,Urban,Current,22,11225.82,1,Yes,0,15,0
+161,69,Female,Rural,Savings,22,6616.07,1,Yes,0,28,0
+162,49,Female,Urban,Current,26,3303.87,1,No,1,4,1
+163,21,Female,Urban,Mobile Wallet,20,4152.48,3,Yes,0,36,0
+164,47,Female,Urban,Savings,19,4093.17,1,No,0,119,0
+165,54,Female,Rural,Current,18,1408.71,0,Yes,1,65,0
+166,40,Male,Rural,Mobile Wallet,25,4339.82,1,Yes,0,108,0
+167,56,Female,Urban,Mobile Wallet,28,6465.66,5,Yes,0,98,0
+168,62,Female,Urban,Mobile Wallet,25,2451.54,1,No,0,47,1
+169,32,Male,Urban,Current,24,7096.97,0,Yes,1,81,0
+170,60,Female,Rural,Mobile Wallet,25,5975.55,3,Yes,2,39,0
+171,46,Female,Urban,Current,17,3531.53,2,Yes,1,38,0
+172,53,Female,Urban,Savings,24,4716.94,1,Yes,1,44,0
+173,30,Male,Urban,Savings,26,8196.64,1,Yes,3,51,0
+174,49,Male,Urban,Current,22,6467.1,4,No,0,97,0
+175,24,Female,Urban,Savings,18,5017.57,1,Yes,3,85,0
+176,68,Female,Rural,Current,21,4524.63,2,No,0,26,0
+177,39,Male,Urban,Current,22,5153.22,2,Yes,1,110,0
+178,45,Female,Urban,Savings,19,3976.47,1,No,0,36,0
+179,19,Female,Urban,Current,24,790.5,4,No,0,69,1
+180,59,Female,Rural,Current,23,9084.36,1,Yes,3,97,0
+181,62,Female,Urban,Savings,22,5310.65,0,No,2,1,0
+182,23,Male,Rural,Savings,16,5796.29,2,No,1,53,0
+183,45,Male,Urban,Savings,14,4884.18,0,Yes,0,6,0
+184,45,Male,Urban,Savings,25,3529.77,3,Yes,1,37,0
+185,61,Female,Urban,Mobile Wallet,23,4628.15,0,No,1,2,0
+186,61,Male,Urban,Savings,20,1801.21,5,Yes,0,117,0
+187,37,Male,Urban,Current,18,9554.17,3,Yes,0,69,0
+188,47,Male,Rural,Savings,17,2530.98,1,No,2,90,0
+189,28,Female,Urban,Savings,22,2936.07,2,Yes,1,41,0
+190,45,Female,Urban,Mobile Wallet,21,4119.48,2,No,0,51,0
+191,42,Male,Urban,Current,17,7576.15,2,No,1,117,0
+192,56,Male,Rural,Savings,32,5029.02,1,No,0,47,0
+193,50,Female,Rural,Savings,26,2527.73,4,Yes,1,13,1
+194,18,Male,Urban,Savings,21,7508.68,1,Yes,0,76,0
+195,44,Male,Rural,Savings,12,6462.0,4,Yes,1,69,0
+196,69,Male,Urban,Current,21,6076.87,0,Yes,2,66,0
+197,30,Male,Urban,Savings,28,6431.47,2,Yes,1,59,0
+198,58,Male,Rural,Savings,14,9788.72,2,Yes,0,68,0
+199,20,Male,Rural,Savings,17,9370.19,1,Yes,1,59,0
+200,56,Male,Urban,Mobile Wallet,24,3626.57,4,Yes,2,91,0
+201,23,Female,Urban,Mobile Wallet,17,8247.77,2,No,0,114,0
+202,25,Male,Urban,Savings,17,5766.34,4,No,0,117,0
+203,44,Female,Rural,Current,22,5998.19,2,No,0,10,0
+204,26,Female,Urban,Savings,21,1615.46,3,No,0,13,0
+205,54,Male,Urban,Savings,23,4659.23,3,Yes,2,108,0
+206,50,Female,Urban,Current,22,3374.35,1,No,0,2,1
+207,68,Male,Urban,Mobile Wallet,18,6656.12,0,No,1,90,0
+208,59,Female,Urban,Mobile Wallet,13,7142.16,1,Yes,3,15,0
+209,61,Male,Rural,Current,28,851.03,2,Yes,1,46,0
+210,41,Male,Urban,Savings,13,4955.93,2,Yes,1,57,0
+211,32,Male,Urban,Current,23,7243.72,4,Yes,1,10,0
+212,49,Female,Urban,Savings,14,4626.64,1,Yes,0,22,0
+213,49,Female,Rural,Current,23,6458.13,3,Yes,0,104,0
+214,41,Female,Urban,Savings,16,5702.33,4,No,0,89,0
+215,58,Male,Urban,Current,20,5683.32,4,Yes,0,79,1
+216,69,Female,Rural,Savings,31,4457.37,1,Yes,0,77,0
+217,66,Male,Rural,Savings,20,2566.84,2,No,0,8,0
+218,66,Female,Rural,Mobile Wallet,21,2756.94,3,Yes,0,21,0
+219,69,Male,Rural,Savings,21,6418.71,0,No,0,85,0
+220,29,Male,Urban,Current,16,5038.92,1,Yes,1,22,0
+221,56,Male,Rural,Savings,17,4722.98,2,No,0,110,0
+222,19,Male,Urban,Savings,19,4152.22,3,Yes,2,97,0
+223,20,Female,Rural,Savings,21,4389.62,2,Yes,0,45,0
+224,66,Male,Rural,Savings,18,7093.82,1,Yes,2,91,0
+225,54,Female,Rural,Mobile Wallet,19,4329.51,1,No,3,40,1
+226,66,Male,Urban,Savings,22,2317.87,0,No,1,114,0
+227,34,Female,Urban,Mobile Wallet,14,6487.3,2,Yes,1,22,0
+228,66,Male,Urban,Current,14,4590.25,2,No,1,30,0
+229,19,Male,Rural,Savings,23,5062.79,1,Yes,2,62,0
+230,19,Female,Rural,Current,20,8215.16,2,No,1,73,0
+231,45,Male,Urban,Current,22,4958.88,3,No,1,45,0
+232,40,Male,Urban,Current,19,5578.37,2,Yes,0,35,0
+233,54,Female,Urban,Savings,25,2642.15,2,Yes,3,82,1
+234,49,Female,Rural,Savings,13,4560.66,3,No,1,42,0
+235,50,Male,Rural,Mobile Wallet,21,6219.05,2,No,0,5,0
+236,18,Male,Urban,Mobile Wallet,13,1889.25,2,No,0,27,0
+237,36,Female,Urban,Mobile Wallet,13,5401.69,1,No,2,70,0
+238,19,Male,Rural,Savings,21,5201.58,4,Yes,0,62,0
+239,61,Male,Rural,Current,22,5082.57,5,No,0,32,0
+240,43,Male,Urban,Savings,23,7074.32,1,Yes,1,8,0
+241,49,Female,Urban,Savings,17,5668.88,1,No,0,103,1
+242,23,Female,Urban,Savings,21,7956.14,4,Yes,1,85,0
+243,49,Male,Urban,Current,18,3012.82,2,Yes,2,18,0
+244,21,Male,Urban,Savings,19,5271.85,4,Yes,2,78,0
+245,28,Male,Urban,Savings,23,5168.93,3,Yes,0,15,0
+246,34,Female,Rural,Mobile Wallet,18,2861.49,2,Yes,1,106,0
+247,55,Male,Urban,Savings,23,6912.59,2,No,0,26,0
+248,41,Male,Rural,Savings,22,9649.35,0,No,1,53,1
+249,22,Female,Urban,Savings,24,4965.99,2,Yes,3,44,0
+250,69,Male,Urban,Mobile Wallet,19,6010.04,0,No,2,32,0
+251,51,Female,Urban,Current,16,5169.04,4,No,0,103,0
+252,23,Male,Urban,Savings,18,3572.83,3,Yes,0,28,0
+253,39,Male,Rural,Mobile Wallet,18,1358.48,3,Yes,2,39,0
+254,28,Male,Rural,Mobile Wallet,15,3588.45,0,No,1,107,0
+255,65,Female,Urban,Savings,18,2216.08,4,No,2,32,1
+256,33,Female,Urban,Current,14,8408.2,2,Yes,1,77,0
+257,50,Female,Rural,Current,19,4769.78,1,No,3,79,0
+258,26,Male,Urban,Current,22,4308.16,1,Yes,0,18,0
+259,23,Female,Urban,Savings,22,6778.31,3,Yes,1,103,0
+260,33,Male,Rural,Mobile Wallet,15,2756.5,2,Yes,3,70,0
+261,46,Male,Urban,Current,21,3466.27,1,Yes,3,119,0
+262,20,Female,Urban,Savings,19,5136.14,2,No,0,11,0
+263,37,Male,Urban,Savings,14,7057.54,1,No,0,32,0
+264,53,Male,Rural,Savings,15,6003.37,2,Yes,3,104,1
+265,36,Male,Urban,Savings,16,5496.65,3,Yes,0,20,0
+266,43,Male,Urban,Current,21,5156.24,2,No,4,97,1
+267,20,Male,Rural,Savings,26,5800.47,1,No,2,40,0
+268,36,Female,Urban,Savings,18,5403.31,0,No,0,8,0
+269,37,Male,Rural,Current,20,2940.06,0,No,0,115,0
+270,49,Female,Urban,Savings,21,5092.16,1,Yes,0,35,0
+271,24,Female,Rural,Mobile Wallet,19,2852.62,2,No,1,69,0
+272,69,Male,Urban,Savings,14,5162.17,2,Yes,0,99,0
+273,58,Male,Urban,Savings,19,4038.7,2,Yes,0,111,0
+274,50,Male,Urban,Savings,24,10078.76,1,Yes,1,78,0
+275,57,Female,Urban,Savings,25,4920.21,1,Yes,1,21,0
+276,56,Male,Rural,Savings,20,2191.52,2,No,0,111,0
+277,35,Female,Rural,Current,34,4731.64,0,No,1,24,0
+278,57,Male,Urban,Mobile Wallet,23,6038.72,1,Yes,0,17,0
+279,18,Female,Urban,Savings,19,8346.73,3,Yes,0,18,0
+280,28,Male,Rural,Current,22,3821.1,0,Yes,2,98,0
+281,45,Male,Rural,Current,13,1835.14,0,Yes,0,12,0
+282,42,Female,Urban,Mobile Wallet,17,6633.67,1,No,2,16,0
+283,67,Female,Urban,Savings,19,2238.8,1,No,3,4,1
+284,40,Male,Urban,Savings,18,4127.69,0,No,1,89,0
+285,48,Female,Urban,Savings,21,4484.76,2,No,2,34,0
+286,47,Male,Urban,Current,18,4860.73,2,No,5,92,0
+287,59,Female,Urban,Mobile Wallet,19,6378.33,2,Yes,2,46,0
+288,52,Female,Urban,Savings,21,3632.73,0,Yes,0,75,0
+289,24,Male,Rural,Savings,24,4452.54,3,Yes,1,77,0
+290,33,Male,Urban,Mobile Wallet,25,4971.46,0,Yes,1,31,0
+291,43,Male,Urban,Mobile Wallet,24,5299.2,2,No,0,25,0
+292,65,Female,Urban,Mobile Wallet,19,5195.65,3,Yes,1,103,0
+293,69,Female,Urban,Current,20,5872.01,4,Yes,2,74,0
+294,66,Male,Urban,Savings,16,6687.68,2,Yes,0,24,0
+295,19,Male,Urban,Current,21,5785.27,2,No,1,65,0
+296,18,Female,Urban,Current,11,5907.17,1,Yes,1,117,0
+297,65,Female,Urban,Savings,24,1835.55,4,No,0,25,0
+298,29,Female,Urban,Current,16,5100.46,3,No,1,28,1
+299,22,Male,Urban,Current,12,5959.02,3,Yes,0,36,0
+300,54,Male,Rural,Savings,15,6457.88,2,Yes,0,82,0
+301,49,Male,Urban,Current,16,3615.3,1,No,3,6,0
+302,26,Female,Rural,Current,10,3681.92,3,Yes,0,66,0
+303,58,Male,Urban,Mobile Wallet,20,3851.8,1,No,3,67,0
+304,52,Female,Urban,Savings,18,6072.83,0,Yes,0,110,0
+305,36,Male,Urban,Savings,14,7067.76,3,Yes,3,72,0
+306,65,Female,Urban,Current,11,4185.08,2,No,4,95,1
+307,33,Female,Rural,Savings,21,6815.92,3,No,0,48,1
+308,20,Female,Rural,Current,26,5246.96,3,No,0,83,0
+309,37,Male,Rural,Current,31,4751.43,0,No,1,114,0
+310,41,Male,Urban,Savings,13,4577.23,3,No,1,70,0
+311,50,Male,Urban,Current,15,6493.22,2,No,0,78,0
+312,41,Female,Urban,Current,22,5651.16,2,No,1,67,0
+313,69,Female,Urban,Savings,29,9551.65,3,Yes,0,48,0
+314,28,Female,Urban,Mobile Wallet,17,3295.55,1,Yes,1,65,0
+315,66,Female,Urban,Mobile Wallet,15,6036.2,1,No,0,44,0
+316,25,Female,Urban,Current,14,3941.6,2,Yes,2,94,0
+317,53,Male,Urban,Current,16,3261.43,1,Yes,1,63,0
+318,55,Female,Rural,Savings,30,4978.27,0,Yes,0,46,0
+319,57,Male,Rural,Mobile Wallet,18,5274.7,2,Yes,0,19,0
+320,37,Male,Rural,Current,12,10836.35,4,Yes,1,118,0
+321,52,Female,Urban,Current,22,4631.71,2,Yes,1,64,0
+322,65,Male,Urban,Mobile Wallet,19,2739.64,0,No,0,83,1
+323,42,Male,Urban,Savings,19,5546.02,1,Yes,0,73,0
+324,52,Female,Rural,Mobile Wallet,18,850.72,5,Yes,2,71,1
+325,42,Male,Urban,Savings,21,4816.09,4,Yes,0,110,0
+326,46,Female,Urban,Savings,17,5032.05,4,Yes,1,101,0
+327,35,Male,Rural,Savings,16,6589.2,4,Yes,1,50,0
+328,63,Male,Urban,Mobile Wallet,15,6947.24,3,No,1,63,1
+329,35,Male,Urban,Mobile Wallet,22,3992.86,2,Yes,1,41,0
+330,19,Male,Urban,Current,20,4698.77,1,No,1,117,1
+331,52,Female,Urban,Current,12,3467.76,1,Yes,0,7,0
+332,33,Male,Urban,Current,18,2743.87,1,Yes,3,9,1
+333,58,Female,Urban,Mobile Wallet,16,5619.79,0,Yes,3,4,0
+334,53,Male,Urban,Savings,15,2452.83,1,Yes,0,89,0
+335,50,Female,Urban,Savings,18,4170.75,4,No,2,49,1
+336,21,Female,Rural,Savings,19,3009.65,0,No,1,76,0
+337,50,Female,Urban,Current,26,6099.37,1,No,1,6,0
+338,31,Male,Urban,Current,23,8602.86,3,Yes,0,82,0
+339,38,Male,Urban,Savings,19,2396.82,1,Yes,1,104,0
+340,65,Male,Rural,Savings,19,1293.96,2,Yes,2,21,0
+341,37,Female,Urban,Mobile Wallet,22,4750.23,1,No,0,15,0
+342,25,Male,Urban,Savings,14,5031.4,2,Yes,2,67,0
+343,24,Male,Rural,Current,16,5437.32,3,No,0,66,0
+344,20,Female,Rural,Mobile Wallet,22,4107.36,1,Yes,1,56,0
+345,34,Male,Urban,Savings,19,4598.72,5,Yes,2,119,0
+346,50,Female,Rural,Savings,21,5735.02,5,Yes,1,105,0
+347,65,Male,Urban,Current,15,7080.86,1,Yes,2,104,0
+348,29,Male,Urban,Mobile Wallet,21,1089.9,0,No,1,68,0
+349,68,Female,Urban,Current,16,4262.12,1,Yes,2,32,0
+350,39,Male,Urban,Mobile Wallet,24,5427.62,3,No,0,66,0
+351,39,Female,Rural,Savings,17,3164.05,1,Yes,2,110,0
+352,63,Male,Urban,Current,21,8462.34,0,No,0,29,0
+353,47,Male,Urban,Current,23,3729.18,3,Yes,0,66,0
+354,55,Female,Rural,Mobile Wallet,20,4917.41,2,No,0,34,0
+355,55,Female,Rural,Savings,17,6112.04,0,No,3,27,0
+356,62,Female,Urban,Mobile Wallet,21,3817.43,0,No,1,60,0
+357,68,Male,Urban,Current,17,1306.85,1,Yes,0,118,0
+358,25,Female,Urban,Savings,20,4142.69,2,No,3,39,0
+359,44,Male,Rural,Savings,23,7058.88,1,Yes,2,44,0
+360,44,Male,Urban,Mobile Wallet,15,4326.21,0,Yes,0,102,0
+361,51,Female,Rural,Savings,13,3307.13,3,Yes,2,82,0
+362,38,Male,Urban,Savings,21,6851.34,0,Yes,1,36,0
+363,47,Female,Urban,Savings,20,4338.45,2,No,0,19,1
+364,50,Male,Urban,Mobile Wallet,15,3979.68,1,Yes,2,91,0
+365,45,Male,Urban,Current,26,5298.91,1,Yes,0,45,0
+366,64,Female,Urban,Current,26,6541.5,3,No,1,84,0
+367,50,Female,Rural,Savings,25,9763.43,2,Yes,2,21,0
+368,22,Female,Urban,Current,21,6654.47,3,No,0,23,0
+369,65,Female,Urban,Current,17,7319.68,3,Yes,0,94,0
+370,36,Female,Rural,Mobile Wallet,16,3988.07,5,Yes,0,89,0
+371,21,Female,Urban,Mobile Wallet,21,2948.26,2,Yes,0,95,0
+372,52,Female,Rural,Savings,19,5124.66,0,No,1,27,1
+373,66,Male,Urban,Current,12,5214.34,1,No,1,98,1
+374,34,Male,Urban,Savings,15,2842.97,1,No,0,72,0
+375,61,Male,Urban,Current,16,4649.41,2,Yes,0,19,0
+376,45,Female,Urban,Savings,19,5798.64,3,Yes,0,41,0
+377,47,Female,Rural,Savings,22,5720.79,4,Yes,2,26,0
+378,46,Male,Urban,Savings,28,6008.58,0,Yes,0,28,0
+379,63,Female,Urban,Current,15,5581.93,1,Yes,3,64,0
+380,23,Female,Urban,Savings,19,3985.98,2,No,0,68,0
+381,52,Male,Urban,Current,22,3972.2,2,Yes,2,95,0
+382,58,Female,Rural,Savings,23,2602.1,3,Yes,2,80,0
+383,54,Female,Urban,Savings,26,8569.55,1,No,1,51,0
+384,41,Male,Urban,Current,16,5026.9,1,No,0,74,0
+385,46,Female,Rural,Savings,20,4550.29,2,Yes,1,102,0
+386,66,Male,Urban,Savings,16,3142.42,0,Yes,2,48,0
+387,63,Female,Rural,Current,24,10871.32,3,Yes,2,10,0
+388,48,Female,Urban,Savings,19,2853.34,3,Yes,1,109,0
+389,52,Female,Urban,Savings,29,4142.3,3,No,1,73,1
+390,50,Male,Urban,Savings,24,5831.67,3,Yes,1,39,0
+391,69,Female,Rural,Mobile Wallet,18,6200.43,2,No,1,100,0
+392,38,Female,Rural,Current,22,6915.86,5,No,2,115,1
+393,49,Male,Urban,Current,21,8615.22,3,No,1,100,1
+394,40,Female,Urban,Current,20,6012.32,1,Yes,0,19,0
+395,50,Male,Urban,Savings,19,2887.94,4,Yes,0,64,0
+396,20,Female,Urban,Savings,23,4486.11,2,No,0,19,0
+397,35,Male,Urban,Current,19,5615.66,2,Yes,0,76,0
+398,42,Male,Rural,Savings,27,9136.45,0,Yes,2,62,0
+399,59,Male,Urban,Savings,25,2204.39,1,Yes,3,13,0
+400,48,Female,Urban,Savings,31,7405.15,2,Yes,0,25,0
+401,20,Male,Urban,Savings,18,5359.83,1,No,1,100,1
+402,57,Female,Urban,Mobile Wallet,20,6675.66,3,Yes,0,89,0
+403,63,Male,Urban,Savings,16,4796.01,5,Yes,0,92,0
+404,41,Male,Urban,Current,17,3315.13,2,Yes,0,42,0
+405,67,Female,Rural,Savings,14,6501.75,2,Yes,0,117,0
+406,49,Female,Urban,Mobile Wallet,29,6308.86,2,No,1,39,0
+407,64,Male,Urban,Savings,18,6944.11,1,No,0,30,0
+408,39,Female,Urban,Savings,22,4973.39,1,Yes,2,5,0
+409,40,Female,Rural,Current,14,3800.36,3,Yes,0,81,0
+410,19,Female,Rural,Current,18,1882.43,4,Yes,0,18,0
+411,44,Male,Urban,Savings,29,6638.75,2,No,1,107,0
+412,59,Male,Rural,Savings,26,5847.78,4,Yes,1,111,1
+413,19,Female,Urban,Savings,23,3068.43,2,No,1,21,0
+414,43,Male,Urban,Savings,22,3922.85,3,Yes,0,86,0
+415,34,Female,Urban,Savings,26,4066.48,2,No,3,103,0
+416,57,Female,Urban,Savings,20,2034.03,3,Yes,0,50,0
+417,50,Female,Urban,Savings,18,3364.64,2,No,0,6,1
+418,26,Female,Rural,Savings,25,2732.34,3,Yes,1,50,0
+419,60,Female,Rural,Current,15,4175.04,0,No,3,80,0
+420,65,Male,Urban,Mobile Wallet,20,3522.61,2,Yes,1,66,0
+421,56,Female,Urban,Current,19,1745.99,2,Yes,0,115,0
+422,46,Male,Urban,Savings,25,9045.18,3,No,0,1,1
+423,59,Male,Urban,Savings,22,7505.08,2,Yes,2,57,0
+424,43,Female,Urban,Mobile Wallet,18,3441.96,0,No,0,30,0
+425,52,Female,Urban,Savings,23,5544.84,1,No,2,58,0
+426,67,Female,Urban,Savings,19,5834.93,4,Yes,1,107,0
+427,42,Female,Rural,Current,22,7382.17,2,Yes,1,52,0
+428,41,Male,Urban,Current,17,3362.79,2,Yes,2,37,0
+429,30,Male,Urban,Current,29,7184.21,1,Yes,1,48,0
+430,24,Female,Rural,Savings,24,3904.19,2,Yes,0,87,0
+431,53,Male,Urban,Savings,14,2328.28,1,No,0,1,1
+432,62,Male,Urban,Mobile Wallet,18,6448.27,2,Yes,1,19,0
+433,37,Male,Urban,Savings,18,7581.52,1,Yes,1,46,0
+434,18,Male,Urban,Current,19,10175.82,2,Yes,1,67,0
+435,25,Male,Rural,Current,20,2600.55,1,Yes,0,2,1
+436,63,Male,Urban,Current,16,6397.84,3,Yes,2,56,0
+437,33,Male,Urban,Savings,22,4180.4,1,No,0,101,0
+438,31,Male,Rural,Savings,19,6566.72,2,No,1,17,1
+439,29,Female,Rural,Current,24,2059.02,1,Yes,3,92,0
+440,68,Male,Rural,Mobile Wallet,25,2474.46,0,No,1,82,1
+441,40,Male,Urban,Mobile Wallet,19,3448.25,1,Yes,0,97,0
+442,32,Female,Urban,Savings,16,5157.93,2,No,0,79,0
+443,45,Male,Rural,Savings,20,3717.84,0,No,0,22,0
+444,51,Female,Rural,Mobile Wallet,19,6318.11,2,No,0,105,0
+445,19,Female,Urban,Current,18,7053.79,2,Yes,0,27,0
+446,49,Male,Urban,Mobile Wallet,16,6199.16,0,Yes,2,55,0
+447,40,Male,Urban,Savings,16,8237.58,1,Yes,0,101,0
+448,39,Female,Rural,Current,27,5831.65,2,No,0,32,0
+449,68,Female,Urban,Current,23,2566.21,0,Yes,1,60,0
+450,42,Male,Urban,Current,14,7726.75,4,No,2,109,0
+451,39,Female,Urban,Savings,19,3789.69,4,Yes,0,83,0
+452,39,Male,Urban,Savings,20,6820.84,1,No,2,28,0
+453,66,Female,Rural,Current,18,8147.47,2,Yes,1,28,0
+454,69,Male,Urban,Savings,23,5913.38,3,Yes,1,74,0
+455,59,Female,Rural,Savings,16,2007.68,4,Yes,0,84,0
+456,23,Female,Rural,Mobile Wallet,15,3163.58,3,Yes,2,25,0
+457,32,Female,Urban,Savings,18,7645.49,1,Yes,0,85,0
+458,60,Female,Urban,Mobile Wallet,18,4661.75,3,No,0,78,0
+459,54,Male,Urban,Savings,22,5159.15,1,Yes,0,86,0
+460,50,Male,Rural,Current,24,6517.65,1,Yes,0,117,0
+461,25,Male,Urban,Mobile Wallet,26,6392.65,1,No,4,26,1
+462,61,Male,Urban,Savings,23,5557.6,3,Yes,2,108,0
+463,61,Female,Rural,Savings,16,4582.66,0,No,1,75,0
+464,22,Male,Urban,Savings,18,4374.66,3,No,2,119,0
+465,56,Male,Rural,Savings,16,6715.8,0,Yes,1,71,0
+466,21,Female,Urban,Current,12,6107.14,2,Yes,1,17,0
+467,23,Female,Urban,Mobile Wallet,21,4485.4,0,Yes,0,82,0
+468,62,Female,Urban,Savings,19,7164.22,0,No,0,7,0
+469,49,Female,Rural,Savings,20,4741.93,0,Yes,1,56,0
+470,69,Male,Urban,Savings,11,3296.68,1,No,1,64,0
+471,47,Male,Rural,Current,17,3482.06,1,No,2,20,1
+472,64,Female,Rural,Savings,15,3042.52,3,Yes,1,38,0
+473,52,Female,Urban,Current,14,4455.18,1,No,2,75,0
+474,57,Male,Rural,Current,14,7467.45,0,No,2,108,1
+475,69,Female,Urban,Current,27,3389.81,3,Yes,1,58,0
+476,33,Male,Urban,Savings,25,5376.95,2,No,2,16,0
+477,30,Male,Urban,Current,15,3686.62,1,No,0,51,1
+478,67,Female,Rural,Savings,27,4479.38,1,Yes,0,119,0
+479,59,Female,Urban,Savings,26,1979.92,3,Yes,1,27,0
+480,47,Female,Urban,Mobile Wallet,17,4558.92,3,Yes,2,51,0
+481,36,Male,Urban,Current,18,4612.59,1,Yes,2,75,0
+482,34,Female,Urban,Savings,21,6080.58,2,No,0,16,0
+483,36,Male,Urban,Savings,23,5446.56,3,Yes,1,87,0
+484,45,Male,Rural,Savings,17,2603.22,2,No,1,60,1
+485,43,Female,Rural,Savings,24,7168.4,1,Yes,2,76,0
+486,54,Female,Urban,Savings,22,5420.61,2,Yes,2,40,0
+487,43,Female,Rural,Savings,21,5396.79,1,No,2,67,0
+488,40,Female,Urban,Savings,18,4981.64,2,No,0,2,0
+489,26,Female,Rural,Current,9,3964.49,4,Yes,0,102,0
+490,29,Female,Urban,Current,18,5435.6,1,Yes,1,48,0
+491,18,Male,Urban,Current,15,5951.18,0,Yes,1,52,0
+492,18,Male,Urban,Savings,30,1506.21,1,Yes,0,24,0
+493,64,Male,Rural,Mobile Wallet,24,3922.48,4,Yes,3,93,1
+494,51,Male,Urban,Mobile Wallet,24,4490.11,2,Yes,1,111,0
+495,49,Female,Urban,Mobile Wallet,22,5512.34,0,No,2,110,0
+496,65,Male,Urban,Mobile Wallet,22,7386.62,1,Yes,1,98,0
+497,42,Male,Urban,Mobile Wallet,12,3456.52,0,No,4,84,1
+498,57,Male,Urban,Current,17,4004.08,3,No,0,82,0
+499,62,Female,Rural,Savings,18,3974.93,1,Yes,0,78,0
+500,18,Male,Rural,Current,21,3396.94,2,No,2,82,0
+501,33,Female,Urban,Current,18,4305.63,2,Yes,1,2,1
+502,56,Male,Rural,Current,15,6541.6,3,No,0,65,0
+503,22,Male,Urban,Current,17,2892.33,2,Yes,1,20,0
+504,39,Female,Rural,Savings,21,5855.63,1,Yes,1,34,0
+505,46,Female,Rural,Savings,18,1596.2,4,No,1,41,1
+506,20,Male,Urban,Mobile Wallet,16,3877.32,2,Yes,0,41,0
+507,29,Female,Rural,Current,24,4341.02,2,No,2,112,0
+508,43,Female,Urban,Current,18,8349.72,1,No,0,75,0
+509,33,Male,Urban,Savings,17,4450.4,4,Yes,1,91,0
+510,68,Female,Rural,Savings,21,597.51,1,Yes,2,23,0
+511,54,Female,Urban,Mobile Wallet,18,1002.22,3,Yes,1,38,0
+512,39,Female,Urban,Current,14,5068.06,2,No,0,44,0
+513,46,Female,Urban,Current,13,6227.54,1,No,1,67,0
+514,31,Female,Rural,Savings,14,5750.91,1,Yes,1,62,0
+515,45,Female,Urban,Current,28,5335.14,0,Yes,1,12,0
+516,22,Female,Urban,Savings,32,7324.52,1,No,0,30,0
+517,64,Female,Rural,Current,23,3920.82,1,Yes,1,95,0
+518,66,Female,Rural,Savings,26,6789.82,1,No,1,87,0
+519,47,Female,Urban,Savings,20,1735.97,3,No,0,65,0
+520,63,Female,Urban,Current,18,3190.1,2,No,2,41,1
+521,69,Male,Urban,Mobile Wallet,24,1385.92,3,Yes,2,20,0
+522,22,Female,Urban,Savings,30,4450.31,0,Yes,0,118,0
+523,29,Female,Urban,Mobile Wallet,21,4907.48,1,Yes,1,6,0
+524,33,Male,Rural,Savings,10,5228.2,1,Yes,1,75,0
+525,43,Female,Urban,Savings,19,5123.77,5,No,0,99,0
+526,43,Male,Urban,Savings,19,3144.89,5,Yes,1,4,0
+527,65,Male,Urban,Savings,31,4619.52,3,No,1,93,0
+528,38,Female,Rural,Current,20,2005.11,3,Yes,4,10,0
+529,56,Male,Urban,Savings,27,7726.46,2,Yes,0,51,0
+530,53,Female,Rural,Savings,18,4392.75,2,Yes,1,93,0
+531,50,Female,Urban,Mobile Wallet,25,4022.23,2,No,1,38,0
+532,47,Female,Urban,Savings,22,8177.88,0,Yes,2,1,0
+533,54,Male,Urban,Current,19,2515.51,2,Yes,0,104,0
+534,40,Male,Urban,Savings,19,2748.83,1,No,1,8,0
+535,27,Female,Urban,Current,19,2807.56,2,Yes,0,102,0
+536,22,Female,Urban,Savings,18,4864.26,2,Yes,0,81,0
+537,53,Female,Urban,Savings,15,5863.26,4,Yes,4,83,1
+538,51,Male,Rural,Savings,21,6479.35,4,Yes,1,63,0
+539,69,Female,Urban,Savings,17,10143.99,2,No,0,33,0
+540,48,Female,Rural,Savings,20,501.14,2,Yes,0,15,0
+541,27,Female,Urban,Current,31,6217.47,4,Yes,2,109,1
+542,36,Male,Urban,Mobile Wallet,20,3885.74,2,Yes,2,31,0
+543,49,Female,Urban,Mobile Wallet,20,3827.17,4,No,1,21,0
+544,18,Female,Urban,Current,16,3760.46,0,Yes,2,3,1
+545,22,Female,Urban,Savings,14,3182.46,0,No,0,66,0
+546,62,Male,Urban,Savings,22,8369.05,2,Yes,2,35,0
+547,21,Female,Urban,Savings,21,6684.59,2,Yes,2,41,0
+548,33,Female,Urban,Savings,23,5046.39,3,No,2,59,1
+549,41,Male,Urban,Current,23,7702.03,3,Yes,0,16,0
+550,33,Female,Rural,Current,18,1974.94,4,No,0,56,1
+551,19,Female,Rural,Savings,12,2338.59,1,Yes,3,45,0
+552,66,Male,Rural,Savings,14,644.06,2,No,0,115,1
+553,45,Male,Rural,Mobile Wallet,25,3601.17,1,Yes,0,59,0
+554,49,Female,Urban,Current,18,5323.4,1,No,2,50,0
+555,44,Male,Urban,Savings,25,5205.72,5,Yes,0,85,0
+556,37,Female,Rural,Mobile Wallet,26,5298.68,1,Yes,2,12,0
+557,41,Male,Urban,Mobile Wallet,15,2177.89,3,Yes,1,92,0
+558,29,Female,Urban,Savings,15,6606.31,1,Yes,0,12,0
+559,67,Male,Urban,Savings,20,5479.26,0,Yes,0,33,0
+560,52,Female,Urban,Current,15,6466.11,1,Yes,1,84,0
+561,50,Female,Urban,Mobile Wallet,9,1214.48,0,Yes,0,104,1
+562,50,Female,Rural,Mobile Wallet,21,5622.98,1,No,0,49,0
+563,68,Female,Urban,Savings,22,2624.47,3,No,3,21,1
+564,60,Male,Urban,Savings,30,4205.35,2,No,0,60,0
+565,54,Female,Rural,Current,28,6068.73,1,Yes,0,52,0
+566,29,Male,Urban,Current,17,5182.19,3,Yes,0,54,0
+567,20,Male,Urban,Savings,23,3296.92,3,Yes,1,39,0
+568,18,Male,Urban,Mobile Wallet,17,5012.55,0,No,2,105,1
+569,50,Male,Rural,Current,21,1936.93,2,Yes,0,49,0
+570,57,Female,Rural,Mobile Wallet,15,7300.53,1,Yes,1,106,0
+571,27,Female,Urban,Mobile Wallet,24,4589.43,2,No,0,64,0
+572,60,Male,Rural,Current,15,7237.1,0,Yes,1,100,0
+573,61,Male,Urban,Savings,22,3946.94,3,No,0,86,0
+574,46,Female,Rural,Current,20,3952.85,2,No,2,26,0
+575,30,Male,Rural,Savings,18,3471.63,4,Yes,0,71,0
+576,29,Male,Rural,Current,15,6752.35,1,Yes,1,7,0
+577,48,Male,Urban,Savings,19,3581.14,4,Yes,1,72,0
+578,63,Female,Rural,Current,19,6289.19,1,No,0,62,0
+579,19,Female,Rural,Savings,21,4235.1,1,Yes,2,90,0
+580,68,Male,Urban,Savings,28,1048.07,0,No,0,88,0
+581,67,Male,Rural,Savings,20,3859.37,4,Yes,0,24,0
+582,52,Female,Urban,Savings,23,2641.78,4,Yes,0,40,0
+583,40,Female,Rural,Current,20,5067.81,2,Yes,2,112,0
+584,34,Male,Urban,Current,28,2619.18,2,No,3,76,1
+585,43,Female,Rural,Current,21,6851.95,2,Yes,0,47,0
+586,25,Male,Urban,Savings,20,4817.85,2,No,1,8,0
+587,46,Male,Urban,Savings,21,4644.81,4,Yes,3,54,0
+588,43,Female,Urban,Savings,20,6311.78,0,Yes,1,9,0
+589,27,Male,Urban,Savings,12,6927.81,4,No,1,3,1
+590,43,Female,Urban,Mobile Wallet,25,4959.8,1,No,2,54,1
+591,51,Male,Urban,Savings,15,3457.6,1,Yes,2,21,0
+592,68,Male,Urban,Savings,24,1452.06,2,Yes,1,95,0
+593,58,Female,Urban,Savings,21,3627.9,3,No,2,48,1
+594,24,Male,Urban,Savings,8,3765.58,2,Yes,0,47,0
+595,21,Female,Rural,Current,25,5214.11,7,Yes,1,88,0
+596,67,Male,Urban,Current,25,4309.71,5,No,0,68,1
+597,62,Male,Rural,Savings,19,6375.87,2,Yes,1,84,0
+598,28,Male,Rural,Savings,19,3774.03,3,Yes,0,63,0
+599,46,Female,Urban,Savings,21,4885.92,2,Yes,1,16,0
+600,53,Male,Urban,Savings,17,7367.97,2,No,0,74,0
+601,42,Female,Rural,Savings,18,5683.65,2,No,0,107,0
+602,38,Male,Urban,Mobile Wallet,21,4879.92,2,Yes,2,90,0
+603,53,Female,Urban,Current,17,3796.11,2,Yes,0,93,0
+604,27,Male,Urban,Current,19,3733.54,1,Yes,0,5,1
+605,54,Female,Rural,Savings,24,3298.77,0,No,0,11,0
+606,26,Female,Urban,Savings,11,3917.99,5,Yes,2,29,0
+607,41,Female,Urban,Current,27,6511.33,5,No,0,109,1
+608,52,Female,Rural,Current,21,4556.22,1,Yes,0,79,0
+609,66,Female,Rural,Current,18,2300.45,2,No,2,70,0
+610,52,Female,Urban,Savings,21,8536.34,0,Yes,2,48,0
+611,65,Male,Urban,Current,13,5639.93,1,No,0,15,0
+612,53,Male,Rural,Savings,32,2186.11,2,Yes,2,107,0
+613,35,Female,Urban,Mobile Wallet,21,4116.3,0,Yes,3,84,1
+614,66,Female,Urban,Current,21,5221.77,2,No,1,34,1
+615,56,Female,Urban,Current,21,8409.18,4,No,2,60,1
+616,49,Male,Rural,Savings,19,2783.78,3,Yes,2,62,0
+617,41,Male,Urban,Current,22,6952.08,3,No,1,2,1
+618,40,Male,Rural,Savings,17,7798.97,5,Yes,2,108,1
+619,49,Female,Rural,Savings,27,3742.69,3,No,0,80,0
+620,54,Male,Urban,Savings,22,4444.97,6,Yes,1,19,0
+621,29,Male,Urban,Current,15,2927.38,1,Yes,0,98,0
+622,66,Male,Urban,Savings,20,4593.08,4,Yes,1,49,0
+623,30,Male,Urban,Savings,22,4926.82,0,Yes,0,78,0
+624,40,Female,Urban,Mobile Wallet,18,6319.3,2,No,4,88,0
+625,42,Male,Rural,Savings,16,7180.37,4,Yes,0,28,0
+626,52,Female,Urban,Current,16,3503.81,2,Yes,0,48,0
+627,58,Male,Rural,Savings,19,1065.35,3,Yes,4,96,1
+628,47,Male,Urban,Savings,19,4957.51,0,No,1,37,0
+629,34,Male,Urban,Current,26,5587.08,0,Yes,0,74,0
+630,66,Male,Urban,Savings,20,5498.84,2,Yes,0,49,0
+631,37,Male,Urban,Savings,18,4346.65,5,No,1,109,0
+632,65,Male,Rural,Current,22,5249.5,1,Yes,1,48,0
+633,42,Female,Urban,Current,29,8030.89,1,No,0,73,0
+634,39,Male,Urban,Current,18,5763.47,2,No,1,88,0
+635,30,Female,Urban,Savings,16,4253.26,2,Yes,1,100,0
+636,36,Female,Urban,Savings,23,3999.6,1,No,1,29,1
+637,66,Female,Urban,Current,18,4660.3,0,No,3,60,1
+638,53,Male,Urban,Current,22,8273.48,3,Yes,0,29,0
+639,29,Male,Rural,Mobile Wallet,24,4633.4,1,Yes,0,58,0
+640,58,Male,Urban,Mobile Wallet,26,4960.41,1,No,0,48,0
+641,36,Male,Rural,Mobile Wallet,30,4035.37,1,Yes,2,23,0
+642,29,Female,Urban,Savings,18,7197.97,2,No,0,27,0
+643,26,Male,Urban,Savings,18,8919.67,2,Yes,0,95,0
+644,24,Male,Urban,Current,19,5901.23,2,Yes,4,107,0
+645,45,Female,Urban,Savings,16,5165.55,0,Yes,0,7,0
+646,31,Female,Urban,Savings,17,5073.57,3,Yes,0,49,0
+647,48,Female,Urban,Mobile Wallet,15,231.39,4,Yes,0,54,1
+648,69,Male,Urban,Mobile Wallet,19,6490.3,1,No,3,109,1
+649,36,Male,Urban,Savings,21,5268.33,5,No,0,68,1
+650,64,Female,Urban,Savings,15,5856.68,2,No,0,78,0
+651,33,Male,Rural,Savings,22,3577.08,1,No,2,106,0
+652,22,Male,Urban,Mobile Wallet,23,4231.09,3,No,2,42,0
+653,52,Male,Urban,Mobile Wallet,20,4177.95,2,Yes,1,74,0
+654,29,Male,Urban,Savings,23,7043.25,1,No,3,59,0
+655,42,Male,Urban,Savings,20,4242.48,2,Yes,1,44,0
+656,69,Male,Urban,Mobile Wallet,23,9165.32,1,No,0,98,1
+657,38,Female,Urban,Savings,19,5861.72,4,No,2,26,1
+658,53,Female,Urban,Current,23,2448.63,3,Yes,0,23,0
+659,40,Female,Urban,Mobile Wallet,26,4742.91,3,Yes,0,73,0
+660,33,Male,Urban,Savings,12,3696.65,5,Yes,1,101,0
+661,56,Male,Urban,Current,19,611.24,1,Yes,0,8,0
+662,62,Male,Urban,Savings,16,8198.94,3,Yes,1,53,0
+663,59,Female,Urban,Savings,21,6406.29,3,Yes,2,14,0
+664,56,Female,Urban,Mobile Wallet,17,6066.41,5,Yes,2,71,0
+665,31,Male,Rural,Savings,26,5330.81,2,No,1,7,1
+666,48,Female,Urban,Mobile Wallet,15,2235.96,0,No,2,9,0
+667,22,Male,Urban,Current,17,4032.77,2,No,0,3,0
+668,52,Female,Urban,Savings,20,6683.56,4,No,0,78,1
+669,40,Female,Rural,Savings,15,2897.56,1,Yes,0,17,0
+670,46,Female,Urban,Savings,29,-63.54,4,Yes,1,114,0
+671,60,Female,Urban,Savings,19,4545.79,2,No,0,44,0
+672,28,Female,Urban,Savings,13,4716.48,1,No,1,86,0
+673,35,Male,Urban,Savings,17,5271.13,2,Yes,2,46,0
+674,64,Female,Urban,Savings,9,6457.04,2,No,2,90,0
+675,29,Male,Urban,Current,24,6275.21,2,No,0,58,0
+676,26,Female,Rural,Current,20,5517.54,3,No,2,28,0
+677,27,Female,Urban,Current,19,7391.06,4,No,0,109,0
+678,61,Female,Rural,Savings,24,1962.06,2,Yes,1,14,0
+679,34,Male,Rural,Savings,19,6009.16,0,No,2,9,0
+680,55,Female,Urban,Current,20,6253.08,2,No,2,115,0
+681,24,Female,Urban,Savings,18,2520.88,2,Yes,0,26,0
+682,63,Female,Urban,Savings,20,1994.26,1,No,2,2,0
+683,30,Male,Urban,Mobile Wallet,14,3508.12,1,Yes,1,75,0
+684,57,Male,Urban,Current,17,3676.92,1,Yes,2,81,0
+685,59,Male,Rural,Current,11,6506.84,1,Yes,1,34,0
+686,26,Male,Rural,Savings,12,3770.92,2,Yes,1,19,0
+687,67,Female,Urban,Current,19,3287.3,1,Yes,0,39,0
+688,44,Male,Urban,Current,17,3776.73,2,No,0,82,0
+689,19,Female,Rural,Current,13,7237.26,4,Yes,0,13,0
+690,22,Male,Rural,Current,18,5026.09,4,Yes,1,5,1
+691,46,Male,Rural,Mobile Wallet,27,4641.5,2,Yes,0,50,0
+692,54,Female,Urban,Current,13,4779.99,2,Yes,0,23,0
+693,55,Female,Urban,Savings,31,7584.12,2,No,0,88,0
+694,36,Male,Urban,Current,19,3501.66,0,No,2,29,1
+695,25,Female,Urban,Current,17,7631.02,1,No,1,112,0
+696,65,Female,Urban,Current,20,5420.99,0,No,5,111,0
+697,62,Male,Urban,Savings,25,4679.16,1,Yes,1,72,0
+698,18,Female,Urban,Savings,21,10001.8,1,No,0,26,0
+699,39,Female,Urban,Mobile Wallet,21,2888.72,3,No,0,79,0
+700,69,Female,Urban,Current,21,4292.63,2,Yes,1,57,0
+701,34,Male,Urban,Mobile Wallet,24,2535.14,2,No,0,1,1
+702,24,Female,Urban,Current,18,6904.92,3,No,1,28,1
+703,42,Male,Urban,Current,19,8378.38,1,No,3,113,1
+704,62,Male,Urban,Current,20,8339.85,6,Yes,1,62,1
+705,21,Male,Rural,Mobile Wallet,21,7447.9,2,No,0,47,0
+706,53,Male,Urban,Current,25,4604.76,4,Yes,1,110,0
+707,23,Female,Urban,Current,16,4269.52,2,Yes,0,78,0
+708,48,Female,Urban,Savings,17,1657.66,0,Yes,1,106,0
+709,36,Female,Rural,Savings,22,9071.75,3,Yes,1,98,0
+710,61,Male,Urban,Current,21,5937.96,1,Yes,0,59,0
+711,56,Male,Urban,Savings,14,4016.09,1,Yes,0,31,0
+712,44,Male,Urban,Savings,26,7656.11,2,No,0,70,0
+713,27,Female,Urban,Savings,23,3054.47,1,No,2,49,0
+714,43,Male,Urban,Savings,13,5813.24,3,No,1,5,0
+715,36,Female,Urban,Savings,19,4654.74,2,Yes,0,31,0
+716,56,Female,Rural,Savings,31,6277.35,4,Yes,0,37,0
+717,20,Male,Urban,Mobile Wallet,18,4872.85,0,No,1,79,0
+718,62,Female,Rural,Current,32,2098.14,2,Yes,2,15,0
+719,30,Male,Rural,Savings,17,5151.15,2,No,2,52,0
+720,67,Female,Urban,Savings,23,7097.73,2,No,0,107,0
+721,45,Female,Rural,Current,23,4941.57,3,Yes,2,69,0
+722,37,Male,Urban,Savings,10,6550.23,3,No,1,92,1
+723,45,Male,Urban,Mobile Wallet,18,2908.94,0,No,1,97,0
+724,25,Female,Urban,Current,20,4947.48,2,Yes,2,11,0
+725,58,Female,Urban,Current,15,3750.98,2,Yes,2,43,0
+726,56,Male,Urban,Savings,19,6493.96,3,Yes,0,70,0
+727,18,Female,Urban,Current,22,5062.98,3,Yes,2,23,0
+728,20,Female,Urban,Savings,21,6380.15,1,Yes,2,40,0
+729,30,Female,Urban,Mobile Wallet,22,7175.42,1,Yes,0,63,0
+730,45,Male,Urban,Current,21,6383.24,2,Yes,0,2,0
+731,66,Female,Urban,Savings,16,5546.24,1,No,2,79,0
+732,42,Female,Urban,Savings,19,3003.58,2,Yes,3,87,0
+733,50,Male,Urban,Savings,12,4994.43,5,Yes,1,86,0
+734,55,Male,Rural,Current,18,3933.82,4,Yes,0,73,1
+735,23,Female,Urban,Savings,21,4311.87,3,Yes,1,47,0
+736,61,Male,Rural,Current,17,4250.93,4,Yes,2,104,0
+737,62,Female,Urban,Savings,16,3040.15,0,Yes,0,30,0
+738,49,Male,Urban,Current,23,1085.32,0,Yes,1,16,0
+739,62,Male,Urban,Mobile Wallet,18,3663.71,0,No,0,59,0
+740,64,Female,Urban,Current,24,5386.76,1,No,1,110,1
+741,38,Male,Urban,Current,12,2303.65,2,Yes,0,47,0
+742,33,Female,Rural,Savings,17,5031.36,1,Yes,0,116,0
+743,38,Male,Urban,Savings,25,8800.54,1,No,0,30,1
+744,28,Female,Rural,Current,23,7046.11,0,No,2,109,0
+745,54,Male,Rural,Savings,18,8287.08,3,Yes,1,9,0
+746,53,Male,Rural,Savings,24,5782.26,3,No,1,65,0
+747,52,Female,Rural,Savings,25,7335.02,2,Yes,2,59,0
+748,36,Male,Urban,Savings,19,3552.07,2,Yes,1,102,0
+749,37,Female,Urban,Savings,16,3711.32,1,No,1,64,0
+750,35,Male,Urban,Mobile Wallet,21,-478.28,0,No,0,8,0
+751,64,Female,Urban,Savings,15,7372.29,1,No,0,52,0
+752,58,Male,Urban,Current,21,8080.65,0,Yes,1,18,0
+753,66,Female,Rural,Savings,20,3893.65,4,Yes,0,91,0
+754,31,Male,Urban,Current,21,4492.1,2,Yes,2,82,0
+755,32,Male,Urban,Savings,21,3492.28,1,Yes,0,96,0
+756,48,Male,Urban,Mobile Wallet,20,5765.31,5,No,0,58,0
+757,18,Male,Urban,Mobile Wallet,16,7249.87,1,No,2,49,0
+758,20,Female,Urban,Savings,17,1514.46,2,No,0,32,1
+759,33,Male,Rural,Mobile Wallet,20,5818.88,3,No,1,117,0
+760,40,Female,Urban,Mobile Wallet,17,4446.66,1,Yes,2,48,0
+761,28,Male,Urban,Mobile Wallet,26,5226.79,1,No,1,45,0
+762,29,Male,Urban,Mobile Wallet,24,5917.99,2,No,1,54,0
+763,27,Female,Urban,Savings,14,4623.6,1,Yes,1,100,0
+764,49,Female,Urban,Current,25,4792.83,1,No,0,100,0
+765,33,Male,Urban,Savings,22,4572.25,2,Yes,2,85,0
+766,25,Male,Urban,Savings,20,6940.63,0,No,0,46,0
+767,55,Male,Urban,Mobile Wallet,22,5837.52,3,Yes,0,96,0
+768,29,Female,Urban,Savings,19,5441.17,1,Yes,2,31,0
+769,41,Female,Urban,Current,21,2458.1,1,No,2,37,1
+770,45,Male,Urban,Mobile Wallet,15,4242.84,1,No,0,16,0
+771,25,Female,Urban,Mobile Wallet,20,6797.34,3,Yes,2,46,0
+772,45,Female,Urban,Mobile Wallet,13,5075.39,3,Yes,1,46,0
+773,53,Female,Rural,Savings,22,6319.06,1,Yes,0,78,0
+774,43,Female,Urban,Savings,13,8533.02,2,Yes,2,88,0
+775,25,Male,Urban,Savings,16,7077.21,2,No,1,89,0
+776,67,Male,Urban,Savings,17,5186.32,2,No,0,61,0
+777,45,Male,Urban,Savings,29,3978.02,1,Yes,2,46,0
+778,45,Male,Urban,Savings,25,-107.1,2,No,1,51,0
+779,54,Female,Urban,Current,17,4663.23,2,Yes,0,62,0
+780,58,Female,Rural,Current,17,4347.98,0,No,0,35,0
+781,53,Male,Urban,Savings,28,5780.73,3,Yes,0,81,0
+782,44,Male,Urban,Current,23,4692.19,1,Yes,3,110,0
+783,34,Male,Urban,Savings,35,4359.23,4,No,0,42,0
+784,26,Female,Urban,Savings,25,1441.2,3,Yes,1,45,0
+785,50,Male,Urban,Current,22,3120.06,4,No,0,118,0
+786,37,Female,Urban,Current,27,5953.3,3,No,3,68,0
+787,30,Male,Rural,Current,9,8431.82,0,Yes,1,75,1
+788,45,Male,Urban,Savings,25,4804.95,2,Yes,0,47,0
+789,65,Female,Urban,Mobile Wallet,19,5655.62,2,No,3,79,0
+790,46,Female,Rural,Current,19,6904.96,1,No,3,30,1
+791,30,Male,Urban,Current,28,3378.21,1,Yes,2,24,0
+792,63,Female,Rural,Current,17,5733.63,1,Yes,2,66,0
+793,52,Female,Urban,Mobile Wallet,18,3519.02,4,No,1,43,0
+794,23,Female,Rural,Current,18,6729.65,1,Yes,2,34,0
+795,35,Male,Urban,Current,22,5302.81,2,Yes,2,23,0
+796,68,Female,Rural,Mobile Wallet,17,5596.9,0,Yes,0,61,0
+797,22,Male,Rural,Current,14,3434.8,1,No,1,95,0
+798,64,Female,Urban,Savings,19,6414.06,4,No,2,37,1
+799,42,Male,Rural,Current,12,9169.43,0,No,2,13,0
+800,19,Male,Urban,Savings,25,2984.18,2,No,2,97,0
+801,27,Male,Urban,Savings,19,4320.48,0,No,0,71,1
+802,47,Female,Urban,Current,26,5463.21,3,Yes,0,96,0
+803,67,Male,Urban,Mobile Wallet,21,6572.81,2,No,0,7,0
+804,62,Female,Urban,Mobile Wallet,19,3880.91,2,Yes,0,42,0
+805,22,Female,Urban,Savings,21,-666.06,2,No,1,38,0
+806,50,Male,Urban,Current,24,7718.38,1,Yes,1,52,0
+807,18,Female,Rural,Savings,15,6521.01,2,Yes,0,44,0
+808,35,Male,Rural,Mobile Wallet,15,1514.1,2,No,1,64,0
+809,49,Female,Urban,Mobile Wallet,21,3784.86,3,No,1,13,0
+810,64,Male,Urban,Current,21,8136.36,3,Yes,2,88,0
+811,66,Female,Urban,Mobile Wallet,18,7895.59,1,No,0,28,0
+812,28,Female,Urban,Current,21,6877.28,3,Yes,1,96,0
+813,38,Female,Urban,Current,22,4647.78,3,Yes,2,107,0
+814,43,Female,Urban,Savings,23,5165.97,4,No,1,82,0
+815,42,Male,Urban,Savings,16,4738.15,0,Yes,0,98,0
+816,39,Female,Rural,Current,14,7256.48,1,No,1,112,0
+817,44,Female,Urban,Current,22,3248.32,0,Yes,0,98,0
+818,66,Female,Urban,Savings,15,3388.4,1,No,0,115,1
+819,30,Male,Urban,Mobile Wallet,25,7020.55,0,No,1,102,1
+820,50,Female,Urban,Savings,22,4911.28,2,Yes,1,1,0
+821,51,Female,Urban,Current,11,7756.93,5,Yes,3,43,1
+822,58,Female,Urban,Current,25,3656.98,0,No,2,114,0
+823,52,Male,Urban,Current,22,4890.44,6,No,0,42,1
+824,18,Female,Urban,Current,31,3155.17,0,Yes,0,95,0
+825,38,Male,Rural,Savings,21,5014.73,4,Yes,1,50,1
+826,65,Female,Rural,Savings,23,2042.91,2,Yes,1,60,0
+827,23,Male,Urban,Current,16,4024.73,3,Yes,1,1,0
+828,45,Female,Urban,Current,27,2127.49,1,Yes,2,51,0
+829,34,Female,Urban,Savings,20,6387.85,4,Yes,1,16,0
+830,22,Male,Urban,Current,14,6433.18,2,No,2,39,0
+831,48,Female,Urban,Savings,16,1539.47,1,No,0,15,0
+832,22,Male,Urban,Current,22,7667.77,0,No,1,33,0
+833,55,Female,Urban,Mobile Wallet,24,9994.83,3,No,2,87,0
+834,20,Female,Urban,Savings,19,5092.01,4,No,0,53,0
+835,40,Female,Urban,Savings,17,3717.77,2,Yes,1,105,0
+836,54,Female,Rural,Current,21,10648.66,4,No,1,98,0
+837,54,Female,Rural,Current,27,2362.06,3,No,0,17,0
+838,27,Male,Rural,Current,27,5040.21,2,No,3,89,1
+839,27,Male,Urban,Mobile Wallet,19,5359.24,5,Yes,0,106,0
+840,36,Female,Rural,Mobile Wallet,22,7690.3,1,No,1,6,1
+841,34,Female,Urban,Mobile Wallet,15,5719.48,2,No,1,31,0
+842,38,Female,Rural,Current,13,4002.73,2,No,3,69,0
+843,31,Female,Urban,Savings,13,3097.63,1,Yes,2,104,0
+844,26,Male,Rural,Savings,24,4316.36,0,No,3,40,1
+845,63,Female,Urban,Savings,14,2986.15,3,No,0,30,0
+846,18,Male,Rural,Current,15,5095.65,3,Yes,0,69,0
+847,68,Female,Rural,Savings,25,3871.61,3,No,0,76,0
+848,62,Male,Urban,Mobile Wallet,22,2011.92,2,Yes,0,7,0
+849,30,Male,Urban,Current,22,7510.29,3,No,0,109,1
+850,21,Male,Rural,Current,22,4004.65,3,No,0,13,0
+851,18,Male,Urban,Savings,26,2463.73,0,Yes,0,113,0
+852,66,Female,Rural,Savings,15,4663.48,1,Yes,1,4,0
+853,57,Male,Urban,Savings,16,5136.74,4,No,0,50,0
+854,49,Male,Urban,Savings,27,1507.07,1,Yes,1,106,0
+855,51,Male,Urban,Savings,22,5663.3,2,Yes,1,3,0
+856,45,Male,Urban,Current,19,2905.68,3,No,1,12,0
+857,48,Male,Rural,Mobile Wallet,29,8422.06,1,Yes,3,65,0
+858,25,Male,Urban,Mobile Wallet,26,6047.92,1,Yes,1,27,0
+859,56,Female,Urban,Current,16,4200.2,4,No,2,107,1
+860,43,Female,Urban,Savings,17,3509.66,5,Yes,3,50,1
+861,51,Female,Urban,Mobile Wallet,22,4790.06,1,Yes,0,77,0
+862,20,Male,Rural,Mobile Wallet,16,6225.58,1,No,1,17,0
+863,67,Male,Rural,Savings,22,4949.01,5,No,0,72,0
+864,29,Female,Urban,Current,25,4565.68,0,No,1,32,0
+865,18,Female,Rural,Savings,22,5116.74,2,No,1,84,1
+866,61,Male,Rural,Mobile Wallet,21,3792.28,1,No,0,51,0
+867,22,Male,Urban,Mobile Wallet,17,4313.59,2,Yes,1,17,0
+868,47,Male,Rural,Savings,17,828.42,2,Yes,1,34,0
+869,47,Male,Urban,Mobile Wallet,20,6947.45,1,Yes,2,35,0
+870,34,Male,Urban,Current,32,5597.6,3,Yes,1,99,0
+871,65,Female,Rural,Mobile Wallet,17,3453.09,3,No,0,102,1
+872,64,Female,Urban,Savings,17,8797.47,3,No,2,106,0
+873,40,Female,Rural,Mobile Wallet,18,5174.03,1,Yes,4,24,0
+874,32,Female,Rural,Savings,22,2927.71,0,No,0,54,0
+875,54,Female,Urban,Savings,25,6713.47,2,Yes,1,18,0
+876,38,Female,Rural,Savings,12,5796.1,1,Yes,0,50,0
+877,31,Female,Urban,Mobile Wallet,14,5789.16,4,No,0,46,0
+878,19,Male,Urban,Mobile Wallet,28,4148.49,4,Yes,0,48,0
+879,28,Male,Urban,Mobile Wallet,25,5900.99,1,Yes,2,103,0
+880,68,Male,Rural,Mobile Wallet,23,4476.48,0,Yes,0,33,0
+881,56,Female,Urban,Savings,15,6111.88,2,Yes,0,113,0
+882,55,Female,Urban,Savings,22,1190.11,2,No,0,87,1
+883,51,Male,Urban,Savings,18,4132.25,4,No,0,89,0
+884,55,Female,Rural,Savings,25,8444.31,1,Yes,2,101,0
+885,67,Male,Urban,Savings,24,3465.87,1,Yes,0,27,0
+886,51,Female,Urban,Savings,26,3792.32,2,No,0,1,1
+887,35,Male,Urban,Savings,21,4104.08,6,No,1,85,0
+888,47,Male,Urban,Savings,19,2570.39,1,Yes,0,59,0
+889,32,Male,Rural,Savings,13,583.44,0,Yes,0,113,0
+890,44,Male,Urban,Savings,26,4538.83,1,No,2,10,0
+891,68,Male,Urban,Mobile Wallet,16,5271.72,1,No,1,95,0
+892,51,Male,Rural,Current,17,4894.99,0,Yes,1,108,0
+893,69,Female,Urban,Mobile Wallet,19,4710.24,1,No,0,25,1
+894,55,Female,Rural,Savings,14,5086.08,1,Yes,1,84,0
+895,50,Male,Urban,Savings,19,7045.68,4,Yes,1,57,1
+896,41,Female,Rural,Current,23,4619.11,6,Yes,1,66,1
+897,32,Female,Urban,Savings,23,3851.83,1,No,2,119,1
+898,47,Male,Urban,Savings,25,4437.75,1,Yes,1,112,0
+899,59,Male,Rural,Savings,16,6158.69,1,Yes,0,15,0
+900,68,Male,Rural,Savings,22,7824.05,2,Yes,1,28,0
+901,34,Male,Rural,Savings,19,3743.71,0,No,0,13,0
+902,22,Female,Urban,Savings,26,5197.87,5,Yes,0,114,0
+903,46,Male,Rural,Current,19,5676.71,2,Yes,2,116,0
+904,21,Female,Rural,Savings,16,3014.84,2,Yes,1,118,0
+905,27,Female,Urban,Savings,20,5040.83,1,No,1,14,0
+906,34,Male,Rural,Mobile Wallet,24,2068.65,1,Yes,3,114,0
+907,27,Female,Rural,Savings,23,1461.9,1,Yes,1,66,0
+908,34,Male,Urban,Savings,20,5733.49,6,Yes,1,34,0
+909,37,Female,Urban,Mobile Wallet,19,4232.25,2,No,1,99,0
+910,41,Male,Urban,Savings,27,5404.56,1,Yes,0,101,0
+911,22,Female,Urban,Savings,30,4964.21,0,No,3,25,1
+912,51,Female,Urban,Savings,22,3047.2,4,No,1,112,0
+913,23,Male,Urban,Savings,14,4909.49,0,No,0,54,0
+914,19,Female,Urban,Current,13,2533.8,4,Yes,0,79,0
+915,30,Female,Urban,Mobile Wallet,19,7781.94,1,No,0,12,1
+916,60,Female,Urban,Savings,16,2288.06,3,Yes,0,9,0
+917,60,Female,Rural,Current,19,4608.43,2,Yes,0,31,0
+918,65,Female,Rural,Current,23,2915.46,2,No,0,78,0
+919,28,Male,Urban,Savings,20,6140.84,3,Yes,0,93,0
+920,68,Male,Rural,Current,17,4337.14,1,Yes,1,53,0
+921,64,Female,Urban,Savings,15,3962.67,1,Yes,1,112,0
+922,40,Male,Urban,Savings,16,6706.4,1,No,1,43,1
+923,33,Female,Urban,Savings,24,5058.86,2,Yes,0,38,0
+924,48,Female,Urban,Savings,21,6033.29,1,No,0,42,0
+925,28,Male,Rural,Savings,12,3037.35,1,No,1,72,1
+926,33,Male,Rural,Mobile Wallet,18,2190.37,1,No,2,48,1
+927,25,Female,Urban,Savings,22,5214.42,3,Yes,1,67,0
+928,21,Male,Urban,Savings,16,4362.31,6,No,1,66,1
+929,57,Female,Urban,Savings,19,6252.87,2,Yes,2,16,0
+930,21,Male,Urban,Current,32,4840.18,0,Yes,0,83,0
+931,42,Female,Urban,Current,18,5410.15,0,Yes,1,94,0
+932,20,Male,Urban,Current,22,1753.23,3,Yes,0,105,0
+933,49,Female,Rural,Current,14,8776.87,3,Yes,0,16,0
+934,20,Male,Rural,Mobile Wallet,24,4671.52,4,Yes,0,31,0
+935,44,Female,Urban,Savings,17,6395.17,2,Yes,2,118,0
+936,46,Male,Rural,Current,19,3327.82,0,Yes,4,58,1
+937,49,Female,Urban,Mobile Wallet,19,5616.02,2,No,0,28,1
+938,67,Female,Urban,Mobile Wallet,20,2394.31,3,No,1,4,1
+939,68,Male,Urban,Mobile Wallet,27,5904.14,2,No,3,10,0
+940,36,Male,Urban,Savings,24,4288.05,1,Yes,0,51,0
+941,38,Male,Rural,Savings,10,5058.38,2,Yes,0,109,0
+942,22,Female,Urban,Savings,20,6395.95,2,No,1,18,0
+943,35,Female,Urban,Current,22,2534.92,1,Yes,3,47,0
+944,45,Female,Urban,Savings,31,3631.02,1,No,1,32,0
+945,59,Male,Urban,Savings,14,5914.65,4,Yes,2,30,0
+946,39,Male,Rural,Mobile Wallet,22,9196.44,2,No,0,36,0
+947,38,Female,Urban,Savings,19,4723.84,4,Yes,1,9,1
+948,23,Male,Urban,Mobile Wallet,12,6182.27,1,Yes,1,36,0
+949,18,Female,Urban,Savings,20,4786.06,1,No,2,29,1
+950,22,Male,Urban,Savings,20,8884.49,3,Yes,2,16,0
+951,58,Female,Urban,Savings,22,1505.56,2,Yes,2,92,0
+952,29,Male,Urban,Current,26,5189.24,1,Yes,1,21,0
+953,43,Male,Urban,Savings,20,1748.91,1,No,0,64,0
+954,63,Female,Rural,Savings,22,-13.14,1,Yes,0,111,0
+955,51,Female,Rural,Mobile Wallet,24,5594.92,1,Yes,0,66,0
+956,66,Female,Rural,Savings,19,5279.0,0,Yes,1,59,0
+957,31,Male,Urban,Current,14,4430.33,3,Yes,0,110,0
+958,43,Male,Urban,Current,21,4787.61,4,No,2,99,0
+959,62,Female,Urban,Savings,19,11196.6,1,Yes,3,118,0
+960,44,Female,Rural,Current,26,4483.65,3,Yes,0,28,0
+961,26,Male,Urban,Savings,13,6020.25,0,Yes,0,55,0
+962,43,Male,Urban,Current,26,3701.27,3,Yes,2,100,0
+963,64,Male,Urban,Savings,23,5590.47,1,Yes,0,31,0
+964,39,Female,Urban,Current,22,4523.53,2,Yes,0,33,0
+965,64,Male,Urban,Savings,24,4178.96,3,Yes,1,87,0
+966,47,Male,Urban,Current,22,8637.8,2,No,1,60,1
+967,60,Male,Rural,Savings,21,7354.37,1,Yes,0,41,0
+968,65,Male,Urban,Savings,19,5273.49,1,No,0,81,0
+969,34,Male,Urban,Savings,23,391.58,2,Yes,0,46,0
+970,43,Female,Urban,Savings,13,4277.98,1,Yes,0,49,0
+971,53,Male,Urban,Mobile Wallet,20,10406.06,2,Yes,0,65,0
+972,18,Female,Urban,Savings,25,4538.68,2,Yes,0,42,0
+973,25,Male,Rural,Mobile Wallet,20,7206.44,3,No,0,23,0
+974,66,Female,Urban,Mobile Wallet,19,7883.88,5,No,0,112,1
+975,52,Female,Rural,Current,20,5437.93,2,No,1,27,0
+976,69,Female,Urban,Savings,16,3316.36,2,No,2,89,0
+977,32,Female,Urban,Savings,20,129.38,1,Yes,1,32,0
+978,64,Male,Rural,Current,13,6368.33,4,Yes,3,83,1
+979,39,Male,Urban,Savings,30,3370.49,2,No,0,88,0
+980,31,Female,Urban,Savings,15,5352.3,2,No,0,3,1
+981,43,Female,Urban,Current,17,2500.36,0,Yes,2,60,0
+982,45,Female,Urban,Mobile Wallet,17,4469.52,1,Yes,2,76,0
+983,40,Female,Rural,Current,21,5067.44,1,Yes,2,99,0
+984,31,Female,Urban,Savings,18,5537.19,1,No,1,79,0
+985,41,Male,Rural,Current,16,2770.36,2,Yes,3,17,0
+986,19,Male,Rural,Savings,24,7393.82,3,Yes,0,114,0
+987,62,Female,Urban,Savings,23,3806.21,3,Yes,0,32,0
+988,43,Female,Rural,Mobile Wallet,19,1651.06,4,No,1,7,1
+989,31,Male,Urban,Savings,18,4781.95,3,Yes,1,83,0
+990,68,Female,Rural,Savings,16,5068.75,1,No,0,71,1
+991,24,Male,Urban,Savings,18,5321.18,3,Yes,0,69,0
+992,20,Female,Urban,Mobile Wallet,14,7724.26,1,No,2,58,0
+993,64,Male,Urban,Current,20,4527.1,2,No,0,40,0
+994,40,Male,Urban,Current,28,4760.76,0,Yes,1,85,0
+995,63,Female,Urban,Current,17,2793.63,1,Yes,2,112,0
+996,60,Male,Rural,Savings,17,6641.11,1,Yes,1,48,0
+997,64,Female,Urban,Savings,10,5368.62,4,Yes,3,51,0
+998,62,Female,Urban,Savings,24,4159.94,1,No,1,57,0
+999,35,Female,Rural,Savings,20,1190.65,2,Yes,1,111,0
+1000,55,Male,Urban,Savings,15,7888.82,2,Yes,0,71,0
