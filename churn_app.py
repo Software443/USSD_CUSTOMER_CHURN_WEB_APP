@@ -64,6 +64,13 @@ with tab1:
         st.subheader("Prediction Probability")
         st.bar_chart({"Stay": [1 - probability], "Churn": [probability]})
 
+with tab2:
+        # Analytics Dashboard
+    st.markdown("---")
+    st.header("📊 Churn Analytics Dashboard")
+
+    ussd_df = pd.read_csv(r"C:\Users\Hp\Downloads\ussd_dataset.csv")
+
     # Feature Importance
     st.subheader("Feature Importance (Random Forest)")
     feature_importance = pd.DataFrame({
@@ -81,13 +88,6 @@ with tab1:
         ussd_df = pd.read_csv(r"C:\Users\Hp\Downloads\ussd_dataset.csv")
         st.subheader("📂 Sample of USSD Customer Churn Dataset")
         st.dataframe(ussd_df.head(20))
-
-with tab2:
-        # Analytics Dashboard
-    st.markdown("---")
-    st.header("📊 Churn Analytics Dashboard")
-
-    ussd_df = pd.read_csv(r"C:\Users\Hp\Downloads\ussd_dataset.csv")
 
     # df = pd.read_csv("ussd_customer_churn.csv")
 
@@ -111,41 +111,41 @@ with tab2:
         ax.set_ylabel("Churn Rate")
         st.pyplot(fig)
 
-col3, col4 = st.columns(2)
+    col3, col4 = st.columns(2)
 
-with col3:
-    # Churn by account type
-    st.subheader("Churn by Account Type")
-    churn_account = ussd_df.groupby("account_type")["churn"].mean().reset_index()
-    fig, ax = plt.subplots()
-    sns.barplot(x="account_type", y="churn", data=churn_account, palette="coolwarm", ax=ax)
-    ax.set_ylabel("Churn Rate")
-    st.pyplot(fig)
-    
-with col4:
-    # Failed transactions vs churn
-    st.subheader("Failed Transact. vs Churn")
-    fig, ax = plt.subplots()
-    sns.boxplot(x="churn", y="failed_transactions", data=ussd_df, palette="Pastel1", ax=ax)
-    ax.set_xlabel("Churn (0=Stay, 1=Churn)")
-    ax.set_ylabel("Failed Transactions")
-    st.pyplot(fig)
+    with col3:
+        # Churn by account type
+        st.subheader("Churn by Account Type")
+        churn_account = ussd_df.groupby("account_type")["churn"].mean().reset_index()
+        fig, ax = plt.subplots()
+        sns.barplot(x="account_type", y="churn", data=churn_account, palette="coolwarm", ax=ax)
+        ax.set_ylabel("Churn Rate")
+        st.pyplot(fig)
+        
+    with col4:
+        # Failed transactions vs churn
+        st.subheader("Failed Transact. vs Churn")
+        fig, ax = plt.subplots()
+        sns.boxplot(x="churn", y="failed_transactions", data=ussd_df, palette="Pastel1", ax=ax)
+        ax.set_xlabel("Churn (0=Stay, 1=Churn)")
+        ax.set_ylabel("Failed Transactions")
+        st.pyplot(fig)
 
 
-with st.container():
-    # Customer tenure vs churn
-    st.subheader("Customer Tenure vs Churn")
-    fig, ax = plt.subplots()
-    sns.histplot(data=ussd_df, x="customer_tenure_months", hue="churn", multiple="stack", bins=30, palette="Accent", ax=ax)
-    ax.set_xlabel("Tenure (Months)")
-    st.pyplot(fig)
+    with st.container():
+        # Customer tenure vs churn
+        st.subheader("Customer Tenure vs Churn")
+        fig, ax = plt.subplots()
+        sns.histplot(data=ussd_df, x="customer_tenure_months", hue="churn", multiple="stack", bins=30, palette="Accent", ax=ax)
+        ax.set_xlabel("Tenure (Months)")
+        st.pyplot(fig)
 
-    # Download full dataset
-st.subheader("⬇️ Download Full Dataset")
-csv_data = ussd_df.to_csv(index=False).encode("utf-8")
-st.download_button(
-    label="Download as csv",
-    data=csv_data,
-    file_name='ussd_customer_churn.csv',
-    mime="text/csv"
-)
+        # Download full dataset
+    st.subheader("⬇️ Download Full Dataset")
+    csv_data = ussd_df.to_csv(index=False).encode("utf-8")
+    st.download_button(
+        label="Download as csv",
+        data=csv_data,
+        file_name='ussd_customer_churn.csv',
+        mime="text/csv"
+    )
